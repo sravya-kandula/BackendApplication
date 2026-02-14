@@ -1,0 +1,60 @@
+### CREATE PRODUCT 1
+POST http://localhost:3000/product-api/products
+Content-Type: application/json
+
+{
+  "name": "Laptop",
+  "price": 75000,
+  "brand": "HP"
+}
+
+
+### CREATE PRODUCT 2
+
+POST http://localhost:3000/product-api/products
+Content-Type: application/json
+
+{
+  "name": "Mobile",
+  "price": 30000,
+  "brand": "Samsung"
+}
+
+
+### CREATE PRODUCT 3
+
+POST http://localhost:3000/product-api/products
+Content-Type: application/json
+
+{
+  "name": "Headphones",
+  "price": 5000,
+  "brand": "Boat"
+}
+
+
+### GET ALL PRODUCTS
+
+GET http://localhost:3000/user-api/users
+
+
+
+### CREATE user
+
+POST http://localhost:3000/user-api/users
+Content-Type: application/json
+
+{
+  "name": "sravya",
+    "email": "sravya.com",
+    "password": "999999",
+    "cart":[]
+  
+}
+
+### GET ALL users
+
+GET http://localhost:3000/user-api/users
+
+###req to add product to cart 
+PUT http://localhost:3000/user-api/user-cart/user-id/69817d9b0265fb5243544f92/product-id/69817d660265fb5243544f90
